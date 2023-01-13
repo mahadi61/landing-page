@@ -202,6 +202,26 @@ header{
 
 /* media queries */
 
-@media screen and  {
+@media screen and (max-width: 688px) {
+    .container{
+        width: 100%;
+    }
+    .top-player-img, .top-blog{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .course{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+@media screen and (min-width: 689px) and(max-width: 992px) {
     
+
+
+}
+@media screen and (min-width: 993px) and(max-width: 1312px) {
+    
+
+
 }

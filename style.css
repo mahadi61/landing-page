@@ -33,23 +33,22 @@ main{
 header{
     background-color: #562EFF;
     height: 94px;
-    align-items: center;
+    display: grid;
 }
-.header-main-area{
-    
-    display: flex;
-    justify-content: center;
-    width: 870px;
-}
+
 .header-area{
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
-    
     
 }
 .logo{
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    color: #FFFFFF;
 }
 .logo img{
     width: 40px;
@@ -61,8 +60,21 @@ header{
 }
 .nav-bar ul{
     display: flex;
+    align-items: center;
+    gap: 35px;
 }
-
+.nav-bar ul li{
+    list-style: none;
+}
+.nav-bar ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.nav-bar img{
+    width: 100%;
+    margin-left: 36px;
+}
 
 /* header area css end */
 

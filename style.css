@@ -128,16 +128,20 @@ header{
 .single-course{
     width: 252.42px;
     height: 269.79px;
-
+    border-radius: 10px;
+    box-shadow: 5px 5px 12px 0px rgb(0 0 255 / 20%);
+    
 }
 .course-banner {
-    width: 224px;
-    height: 104px;
-    margin-bottom: 20px;
+    width: 100%;
+    padding: 5px;
 }
 .course-banner img{
     width: 100%;
 
+}
+.course-detail{
+    padding: 0 0 0 5px;
 }
 .course-detail h2{
     font-size: 20.03px;
@@ -182,3 +186,10 @@ header{
 /* crouse section css end */
 
 /* main section css end */
+
+
+/* media queries */
+
+@media screen and  {
+    
+}
